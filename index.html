@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="upgrade.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <p>hab's clicking game of doom</p>
+    <br>
     <h1 id="counter">0</h1>
-    <input type="button" onclick="increase()" value="click me!">
+    <input id="increase" type="button" onclick="increase()" value="click me!">
+    <br>
+    <p>Current tickspeed: <span id="tspeed">1000</span> /s</p>
+    <input id="enlarge" type="button" onclick="decreaseInterval()" value="click to increase tickspeed">
 </body>
+
+<script type="text/javascript" src="./upgrade.js"></script>
+
 </html>

@@ -1,0 +1,22 @@
+#counter {
+    color: red;
+    font-size: 80px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+#increase {
+    border: 4px;
+    padding: 16px 32px;
+}
+
+#enlarge {
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: rgb(33, 3, 53);
+}
